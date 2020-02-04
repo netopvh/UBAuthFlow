@@ -1,0 +1,6 @@
+framework module UBAuthFlow {
+  umbrella header "UBAuthFlow-umbrella.h"
+
+  export *
+  module * { export * }
+}

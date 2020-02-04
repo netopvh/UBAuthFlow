@@ -1,0 +1,6 @@
+framework module Pods_UBAuthFlow_Example {
+  umbrella header "Pods-UBAuthFlow_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

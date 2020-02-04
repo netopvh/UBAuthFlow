@@ -1,0 +1,6 @@
+framework module Pods_UBAuthFlow_Tests {
+  umbrella header "Pods-UBAuthFlow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

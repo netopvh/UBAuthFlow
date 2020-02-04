@@ -1,0 +1,6 @@
+framework module USE_Coordinator {
+  umbrella header "USE_Coordinator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "UBAuthFlow",
+  "version": "0.1.0",
+  "summary": "A short description of UBAuthFlow.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tulio de Oliveira Parreiras/UBAuthFlow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tulio de Oliveira Parreiras": "tulio@usemobile.xyz"
+  },
+  "source": {
+    "git": "https://github.com/Tulio de Oliveira Parreiras/UBAuthFlow.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "4.2",
+  "platforms": {
+    "ios": "10.1"
+  },
+  "source_files": "UBAuthFlow/Classes/**/*",
+  "static_framework": true,
+  "frameworks": "UIKit",
+  "dependencies": {
+    "USE_Coordinator": [
+
+    ],
+    "TPKeyboardAvoiding": [
+
+    ]
+  },
+  "resource_bundles": {
+    "UBAuthFlow": [
+      "UBAuthFlow/Assets/*.png"
+    ]
+  }
+}

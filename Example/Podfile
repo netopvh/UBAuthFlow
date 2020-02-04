@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UBAuthFlow_Example' do
+  pod 'UBAuthFlow', :path => '../'
+
+  target 'UBAuthFlow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

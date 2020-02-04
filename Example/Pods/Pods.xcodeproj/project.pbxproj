@@ -1,0 +1,1777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0851B55B5178AAE37A027EF54117A750 /* Pods-UBAuthFlow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B29FDC3D1AB55FA08FEF754DAA8F39 /* Pods-UBAuthFlow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ADCFA3D8CE6DAC5812753ABBDA24AEA /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75EB04817A22B1C97795CC3EA1B47B /* TabBarCoordinator.swift */; };
+		0E22F13FCB126226E4C635B274744C05 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F05CE44A276272511B58AEFD2DB44B9 /* ForgotPasswordView.swift */; };
+		1156BD640A4A508B1DF45E998A4E9DE5 /* CoordinatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994F35B1A0D6821076FECD5F16DFE8B5 /* CoordinatedViewController.swift */; };
+		119A2822EAA71A93C513F35E4B67C589 /* TPKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62EDF5B59B5500737F7FA7D627A07D58 /* TPKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1573EAFE45D48102DC932ACD51F62C9B /* UBAuthFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC342F597F68974E6D7B9C2BB18716DE /* UBAuthFlow-dummy.m */; };
+		15EA24C9E1A618D464FF3F693E908B1B /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743BBFE02D9B84E82B804A0F66C5023 /* AuthCoordinator.swift */; };
+		1693A8E13B8D6628C46E4FCB8495B1E0 /* UBAuthFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FD502F7031B2A3986CD02AF33C5659 /* UBAuthFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17661DB679C575C0EA40A98A75810C13 /* Pods-UBAuthFlow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C249CD7AB3C22F2E96D07E66DE5E115 /* Pods-UBAuthFlow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B2AABA95EF6EB1CC0C9179410511A9 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 322ACA33E1464E919BB9C37DD7E27FE9 /* eye.png */; };
+		1B55F9F7E61E65C1DA4DF990350C51E7 /* PhoneSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E2ABFA986211DA78A0BB3B0A6F98C /* PhoneSettings.swift */; };
+		1BA473AF8183EA48138923BCB84255E0 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D61D59D2FB8FA8EE2BF8048F37D64DD /* MessageInputView.swift */; };
+		20707C23F64CED9FE9E0B7C8D8AE33F2 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6DECE51F3338CD75B42F1AB321DE68 /* Strings.swift */; };
+		20D25847DA248E506A5BF1B8E10F1C54 /* SimpleButtonControlState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E34AD3711E53BE05D4F7046246C89C79 /* SimpleButtonControlState.swift */; };
+		2297CD4BB4EC54EB22D144309139E04D /* eye-closed.png in Resources */ = {isa = PBXBuildFile; fileRef = D769D920CC5826242535C4FDC7D9DF16 /* eye-closed.png */; };
+		2482495EB5DC957663EA9D1170236075 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585C536C8127C7F6D36FBA2572ED3814 /* SignUpViewController.swift */; };
+		24F4625A069F24D8A6C0EB3AF38A810E /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF994DA9CC20F347D4F73C47FD4C8BA /* TransitionButton.swift */; };
+		266D45F712E1F5F9E3E738457D553670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2723DF067AC272882BEC22A2CC704216 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		2B67DDEBD1CEE6A7BB471CC72665008D /* AuthSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE56DB8BC7AE5A26801CDF0428541493 /* AuthSettings.swift */; };
+		30623ED69E9383C1B7F4CD1FF0495D78 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4829A4BC90882ED0E3265D83BA366510 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		36F810E05636BF538851BD50528F0E98 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256130AEAC942A1EE70BB22F74E53476 /* Coordinator.swift */; };
+		3A0CAD73D32D40F37C77ED844C2587BA /* Pods-UBAuthFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887986D769C266C8CE19F27137EF706 /* Pods-UBAuthFlow_Tests-dummy.m */; };
+		3BA648DA31EEC09DA3020C93500B0416 /* SimpleButtonStateChangeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D5196D2F61296AC6800147233331BE /* SimpleButtonStateChangeValue.swift */; };
+		3DBC4CCB747C1CBDCD426C6B3DC46BCB /* USE_Coordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7826353AC90928083EB22EF0E66A0D59 /* USE_Coordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1BD7729764B64A4064D692AB835B40 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2740CA01046A3755FD68A58A4B6DA27 /* TPKeyboardAvoiding-dummy.m */; };
+		4AA737DFB0E5BD971725DC962BA147CF /* ButtonSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3D19B6E47F2CFC7E933BF6CAD60F26 /* ButtonSettings.swift */; };
+		4B2C7F9DE0ECD17B883A58B5D3AB737A /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAEF9F46623C50308643A394FC60115 /* InitialView.swift */; };
+		506293A540551753286BFDBD90D302AC /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC135A8F0D22211AB7CEAC302A403DB /* InitialViewController.swift */; };
+		5287FF64A877689536225866E8BE26D0 /* InitialSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A9EF045B5673A6EAF671E712CB5AE0 /* InitialSettings.swift */; };
+		54E283B723AD069318DC7317FE9E0CFF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F75C01AB3AD0EC123400A92C77A76B4 /* LoginView.swift */; };
+		5D9A2FB7EA7A274BF4B3F77AFE1C2463 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 527D02B988981A996D8CECBD72381F13 /* close.png */; };
+		5DC83757882502B87CD7722491C1CC1A /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB586915F91F25F09DDB8FD891F1A09 /* NavigationCoordinator.swift */; };
+		606F22A9DA3E8240377895A83F520E81 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 746100BA4D12C6687A3EC19C6A2119C3 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E114A5F3C697ED05439663631C9474 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F5AC697CF31A1CA575A46AC1F10ED5C /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67E01D8C32FCD56B0CD401B8A196E36C /* edit-phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C8BBE7F307C64B27C9AD38D063807D /* edit-phone.png */; };
+		697E9608048DA4D57A655D927F8E0585 /* SignUpSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B519681994BB2FB043630616A3E871E /* SignUpSettings.swift */; };
+		69B582B06F896663E383D90DF188BFA8 /* PhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B94ABA95A43B5B3317B5C9381086253 /* PhoneViewController.swift */; };
+		791C42177E732A78199667BC58B79DE0 /* PhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C8C8B80D26D59EA5A57C82C4061AD1 /* PhoneView.swift */; };
+		7C653DEB83487897476DCAEED9DBF552 /* TextFieldSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF07BA37F7ADA2EFE41EE97E7C519E9 /* TextFieldSettings.swift */; };
+		847FEFD638541337F115F2E8E0E69BFD /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAC933E83E3FAF978547D240FEBAFA /* ArrowView.swift */; };
+		8F278E370A40E093E558974939D7AE0B /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = CA47F306FFA27637A38295FE8E80719E /* pencil.png */; };
+		976A779B18D7230E1304C02D82263837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A0715565093063F8134574716E7B7ED3 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2439C43ACEF90C464AF29CFA697BDA6 /* FadeTransition.swift */; };
+		A40CC809515D71190870A8F780985B28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A67DCAE29300530B3902AF8A38994D39 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A63C0A65E42EB6A9720BCC4D95407C /* SignUpViewModel.swift */; };
+		A76BB740A4BB57AAF0F7D12E0C28317F /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897C05E1AEA29C175D3468F2771312B /* SideMenuController.swift */; };
+		AB2C30D9C83A718AE1A457D257A531D3 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425DF959FE9E175F5DFEFE280200DC2A /* ForgotPasswordViewController.swift */; };
+		AD185EFAC7BF4BE11B9BDB64F71A2574 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DB2ED9EC9E57ABEB381598731FB33 /* Extensions.swift */; };
+		AD6FE1C6E7580289A38DEACD34E4B0CE /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094A0B7BA39EBAB39778B4678BDFBA7E /* SpinerLayer.swift */; };
+		B27433E846B5A7C333BB9C0C991F32DF /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEC8DA8F718BBD61FE866956C0DE33 /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B48524C632E0F294E57E7E7B2F109A17 /* SideMenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38B2FD8F4800C31891A3D1C30ADE4EC /* SideMenuCoordinator.swift */; };
+		C003A65386B0C5E0936AB472CEBC2D47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C24BF397668D59AC06995A1CE68FC71D /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = AF05D6C6344B665D48CABBC8E8DC7112 /* menu.png */; };
+		C303FF32A55D246A064888309C51C5DD /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14595AB644B4242C927CFEEB2132E969 /* CGRectExtension.swift */; };
+		C6D3A1D7C12C00D56698B5DCE5F670EC /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D7A338ACD9949ED3D29B1BE9E2CDA7 /* CustomTransitionViewController.swift */; };
+		D31682DF0BEB5592C59732D64E82AA04 /* ForgotPasswordSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E1F59BD99B1183F507169B99C50241 /* ForgotPasswordSettings.swift */; };
+		D7ACE3407BB8A96149BE51CBB9CEDE53 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5CE02BFCCF90E683EF37A224A134F3 /* UIColorExtensions.swift */; };
+		DB039491B16423CC3A95250BA606BF72 /* SimpleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A01C51691CC11B871248C8D61524C40 /* SimpleButton.swift */; };
+		E2469DAD95EF0D1A6DCB29B93A59E212 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4FE1306DC56AE61062EA2DD0F2CB6 /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2BF8ECE39F03AC6176B6DFD51343254 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DE27F6B7E60C0260A789C0D2347FD /* SignUpView.swift */; };
+		E5053762EFA29AA513D31B7F5D035A75 /* Pods-UBAuthFlow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1024794B1BE063D0F0DE09CFAB732EF3 /* Pods-UBAuthFlow_Example-dummy.m */; };
+		E5EF046D4420F5E158D18136DB205679 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11D488A5CA3833ECA91B2D127D164FF /* LoginViewController.swift */; };
+		E79AFEA3DCA5303A52BAEE639DBBEB64 /* LoginSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6F55B76D0B3D67DD6A6BBABBEDBC44 /* LoginSettings.swift */; };
+		E836751AF3B0AD2867FDAB040B5EF1BE /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 522C3FF9845B13C7E8FA480E62BF39DB /* camera.png */; };
+		E8DADBF72DC1A5B0AF91FB5C9B57A4E4 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 699076D93166EFFBBA925A981A3F5142 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F305CA9D4C49A4D5F4AFEC00BCCDE8A2 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCD00B891CEA7FE782521417E3EFA61 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FC0C65EF22CE75FE008CB8F9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C65EE22CE75FE008CB8F9 /* LoginViewModel.swift */; };
+		FC0C65F122CEAF90008CB8F9 /* EditPhoneSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C65F022CEAF90008CB8F9 /* EditPhoneSettings.swift */; };
+		FC0C65F422CEB0B7008CB8F9 /* EditPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C65F322CEB0B7008CB8F9 /* EditPhoneViewController.swift */; };
+		FC0C65F722CEB0D7008CB8F9 /* EditPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0C65F622CEB0D7008CB8F9 /* EditPhoneView.swift */; };
+		FC8CAB156456F3FB5E7D7664A3325A4E /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C737F4338FF4ED1CFF01EEBB625D7236 /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCD5562F22CCF679006FE561 /* PinTextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5562E22CCF679006FE561 /* PinTextInputView.swift */; };
+		FF39F91A84F66362919ADC6E9B64F802 /* USE_Coordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB33031B6FE6DB88FCF99F90A8C512C /* USE_Coordinator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21FA5FAD4B3C5BA658D154B0F5B6A1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC736A5ED8AF5678697054C25D07498E;
+			remoteInfo = USE_Coordinator;
+		};
+		3789C03CF12178F49023DAC2F947F491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1343042EDCB23E2CA267E65C520F9395;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+		39B6A54B4D830D0D822085D99FED16A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 834901787B233B6D982CCD74D5DA36B1;
+			remoteInfo = "UBAuthFlow-UBAuthFlow";
+		};
+		4803CF3B5C8B7203E4195F2400A7806B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5112B6DEC5025E83AD19DDB99D590E03;
+			remoteInfo = "Pods-UBAuthFlow_Example";
+		};
+		7FCE029957606056A7CBA2DBBB01627B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F4480F38EEC560103B77C221296E320;
+			remoteInfo = UBAuthFlow;
+		};
+		874B2E5D28A8CBA0C9DB0D6228F21DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC736A5ED8AF5678697054C25D07498E;
+			remoteInfo = USE_Coordinator;
+		};
+		8C9DB1BB97F4B390BEDB3B6984C8CA92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BE844C80F3C75A03F470984ABA8FD07;
+			remoteInfo = "USE_Coordinator-USE_Coordinator";
+		};
+		F7096E192FAA49B2862D6FF771B3F02A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1343042EDCB23E2CA267E65C520F9395;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01423444516EA669D2760BFD8FBB87E4 /* UBAuthFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBAuthFlow-prefix.pch"; sourceTree = "<group>"; };
+		083548214145DFD1E8987B5111FC15B9 /* Pods-UBAuthFlow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBAuthFlow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0864EA64C58ACAD1EBB775C46D88B07F /* Pods-UBAuthFlow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBAuthFlow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		094A0B7BA39EBAB39778B4678BDFBA7E /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpinerLayer.swift; sourceTree = "<group>"; };
+		0A01C51691CC11B871248C8D61524C40 /* SimpleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleButton.swift; sourceTree = "<group>"; };
+		1024794B1BE063D0F0DE09CFAB732EF3 /* Pods-UBAuthFlow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBAuthFlow_Example-dummy.m"; sourceTree = "<group>"; };
+		14595AB644B4242C927CFEEB2132E969 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		192AB93DE8C239FBDDAD7ECE9206D447 /* UBAuthFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UBAuthFlow-Info.plist"; sourceTree = "<group>"; };
+		1A75EB04817A22B1C97795CC3EA1B47B /* TabBarCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TabBarCoordinator.swift; path = USE_Coordinator/Classes/TabBarCoordinator.swift; sourceTree = "<group>"; };
+		1B6F55B76D0B3D67DD6A6BBABBEDBC44 /* LoginSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginSettings.swift; sourceTree = "<group>"; };
+		1F76C6CE120701204F46A6EB77B65425 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		23E1F59BD99B1183F507169B99C50241 /* ForgotPasswordSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForgotPasswordSettings.swift; sourceTree = "<group>"; };
+		256130AEAC942A1EE70BB22F74E53476 /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinator.swift; path = USE_Coordinator/Classes/Coordinator.swift; sourceTree = "<group>"; };
+		25D5196D2F61296AC6800147233331BE /* SimpleButtonStateChangeValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleButtonStateChangeValue.swift; sourceTree = "<group>"; };
+		299215A1B86ED3621574882A5FA8828B /* ResourceBundle-UBAuthFlow-UBAuthFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UBAuthFlow-UBAuthFlow-Info.plist"; sourceTree = "<group>"; };
+		2A9E77331BC777A8E727FB2DF8AC3FDE /* UBAuthFlow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UBAuthFlow.xcconfig; sourceTree = "<group>"; };
+		322ACA33E1464E919BB9C37DD7E27FE9 /* eye.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = eye.png; path = UBAuthFlow/Assets/eye.png; sourceTree = "<group>"; };
+		381860A288BB4894FD39D802B7589670 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		3887986D769C266C8CE19F27137EF706 /* Pods-UBAuthFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UBAuthFlow_Tests-dummy.m"; sourceTree = "<group>"; };
+		3983B012C21A72193ACAB3B8521C9E04 /* UBAuthFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UBAuthFlow.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		3CB33031B6FE6DB88FCF99F90A8C512C /* USE_Coordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "USE_Coordinator-dummy.m"; sourceTree = "<group>"; };
+		3CC135A8F0D22211AB7CEAC302A403DB /* InitialViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		3F05CE44A276272511B58AEFD2DB44B9 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		425DF959FE9E175F5DFEFE280200DC2A /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		44A9EF045B5673A6EAF671E712CB5AE0 /* InitialSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InitialSettings.swift; sourceTree = "<group>"; };
+		4829A4BC90882ED0E3265D83BA366510 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		4DA035DA5AF9CB4C2DC6E99FA731CAE4 /* Pods_UBAuthFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBAuthFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAEC8DA8F718BBD61FE866956C0DE33 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		4E3D19B6E47F2CFC7E933BF6CAD60F26 /* ButtonSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ButtonSettings.swift; sourceTree = "<group>"; };
+		4E3F53E7A1E2C1125EAA2F954CBA82CF /* Pods-UBAuthFlow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBAuthFlow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		522C3FF9845B13C7E8FA480E62BF39DB /* camera.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera.png; path = UBAuthFlow/Assets/camera.png; sourceTree = "<group>"; };
+		527D02B988981A996D8CECBD72381F13 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = close.png; path = UBAuthFlow/Assets/close.png; sourceTree = "<group>"; };
+		54E33A7FC801BA02409B72BD117AF0ED /* Pods-UBAuthFlow_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UBAuthFlow_Example-resources.sh"; sourceTree = "<group>"; };
+		554DB2ED9EC9E57ABEB381598731FB33 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		57E6A5B05F8F49D93DBF9137C8F85215 /* Pods-UBAuthFlow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBAuthFlow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		585C536C8127C7F6D36FBA2572ED3814 /* SignUpViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5E5CE02BFCCF90E683EF37A224A134F3 /* UIColorExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		61D86206966508C8FE988822DE3538E9 /* Pods-UBAuthFlow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBAuthFlow_Example.modulemap"; sourceTree = "<group>"; };
+		62EDF5B59B5500737F7FA7D627A07D58 /* TPKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		63793327FF2B582E012238AF9004BE4C /* TPKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		6541466EFA5AD87FD12C557FF2F83B0E /* Pods_UBAuthFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBAuthFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66506820B18BD8586F939B7B0709AC62 /* USE_Coordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = USE_Coordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		699076D93166EFFBBA925A981A3F5142 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		6B519681994BB2FB043630616A3E871E /* SignUpSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpSettings.swift; sourceTree = "<group>"; };
+		6B6DECE51F3338CD75B42F1AB321DE68 /* Strings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		6B94ABA95A43B5B3317B5C9381086253 /* PhoneViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneViewController.swift; sourceTree = "<group>"; };
+		6D61D59D2FB8FA8EE2BF8048F37D64DD /* MessageInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
+		6F5AC697CF31A1CA575A46AC1F10ED5C /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		6F75C01AB3AD0EC123400A92C77A76B4 /* LoginView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		739227CE22B36D9888C37D3D51E69A25 /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		73C8BBE7F307C64B27C9AD38D063807D /* edit-phone.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "edit-phone.png"; path = "UBAuthFlow/Assets/edit-phone.png"; sourceTree = "<group>"; };
+		746100BA4D12C6687A3EC19C6A2119C3 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		7826353AC90928083EB22EF0E66A0D59 /* USE_Coordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "USE_Coordinator-umbrella.h"; sourceTree = "<group>"; };
+		7A8078B4000BF03FE0026FC75756F1E4 /* UBAuthFlow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBAuthFlow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D19F92C9F9FBF3A8C367B2CFB2E63EB /* Pods-UBAuthFlow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBAuthFlow_Example-Info.plist"; sourceTree = "<group>"; };
+		7DB586915F91F25F09DDB8FD891F1A09 /* NavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NavigationCoordinator.swift; path = USE_Coordinator/Classes/NavigationCoordinator.swift; sourceTree = "<group>"; };
+		86967C8BD875526713A2C1C5A088F350 /* ResourceBundle-USE_Coordinator-USE_Coordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-USE_Coordinator-USE_Coordinator-Info.plist"; sourceTree = "<group>"; };
+		8FF994DA9CC20F347D4F73C47FD4C8BA /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionButton.swift; sourceTree = "<group>"; };
+		93845CFB67A971D3D0B98CB310791443 /* Pods-UBAuthFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBAuthFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A63C0A65E42EB6A9720BCC4D95407C /* SignUpViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		9743BBFE02D9B84E82B804A0F66C5023 /* AuthCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		994F35B1A0D6821076FECD5F16DFE8B5 /* CoordinatedViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoordinatedViewController.swift; path = USE_Coordinator/Classes/CoordinatedViewController.swift; sourceTree = "<group>"; };
+		9C249CD7AB3C22F2E96D07E66DE5E115 /* Pods-UBAuthFlow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBAuthFlow_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0A4FE1306DC56AE61062EA2DD0F2CB6 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		A2FD502F7031B2A3986CD02AF33C5659 /* UBAuthFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UBAuthFlow-umbrella.h"; sourceTree = "<group>"; };
+		A4E8F6CB87D0EB1CA2BBF92CAFA397E5 /* USE_Coordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "USE_Coordinator-prefix.pch"; sourceTree = "<group>"; };
+		A5D7A338ACD9949ED3D29B1BE9E2CDA7 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		A821B24E0F22A7D69F467D359E09A044 /* UBAuthFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UBAuthFlow.modulemap; sourceTree = "<group>"; };
+		A897C05E1AEA29C175D3468F2771312B /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = USE_Coordinator/Classes/SideMenuController.swift; sourceTree = "<group>"; };
+		A8E31F50DF1413607960C5DA642776CC /* TPKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
+		A93DE27F6B7E60C0260A789C0D2347FD /* SignUpView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		AD232ED801195FDCCEB9B2AB57678C09 /* Pods-UBAuthFlow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UBAuthFlow_Tests.modulemap"; sourceTree = "<group>"; };
+		AF05D6C6344B665D48CABBC8E8DC7112 /* menu.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = menu.png; path = USE_Coordinator/Assets/menu.png; sourceTree = "<group>"; };
+		B31A471C1E85115EC3D28720CECBC183 /* Pods-UBAuthFlow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBAuthFlow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B38B2FD8F4800C31891A3D1C30ADE4EC /* SideMenuCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuCoordinator.swift; path = USE_Coordinator/Classes/SideMenuCoordinator.swift; sourceTree = "<group>"; };
+		B63E2ABFA986211DA78A0BB3B0A6F98C /* PhoneSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneSettings.swift; sourceTree = "<group>"; };
+		C13B3D62FDE2B23C8442C4E6D3D5B534 /* Pods-UBAuthFlow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UBAuthFlow_Tests-Info.plist"; sourceTree = "<group>"; };
+		C355AEF5E7FBC8F45B8F54524EAA082D /* USE_Coordinator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "USE_Coordinator-Info.plist"; sourceTree = "<group>"; };
+		C737F4338FF4ED1CFF01EEBB625D7236 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		CA47F306FFA27637A38295FE8E80719E /* pencil.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = pencil.png; path = UBAuthFlow/Assets/pencil.png; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE56DB8BC7AE5A26801CDF0428541493 /* AuthSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthSettings.swift; sourceTree = "<group>"; };
+		D11D488A5CA3833ECA91B2D127D164FF /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D173EE26AA19211CEE8A59EAA4830B1B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D2439C43ACEF90C464AF29CFA697BDA6 /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		D2740CA01046A3755FD68A58A4B6DA27 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		D41E3E78F868B6F294EB6C9D12D9E967 /* UBAuthFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UBAuthFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D769D920CC5826242535C4FDC7D9DF16 /* eye-closed.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "eye-closed.png"; path = "UBAuthFlow/Assets/eye-closed.png"; sourceTree = "<group>"; };
+		DC342F597F68974E6D7B9C2BB18716DE /* UBAuthFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UBAuthFlow-dummy.m"; sourceTree = "<group>"; };
+		DFCD00B891CEA7FE782521417E3EFA61 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		E0C8C8B80D26D59EA5A57C82C4061AD1 /* PhoneView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PhoneView.swift; sourceTree = "<group>"; };
+		E164D3E17FF0ADEC30630008C9B99D45 /* USE_Coordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = USE_Coordinator.xcconfig; sourceTree = "<group>"; };
+		E34AD3711E53BE05D4F7046246C89C79 /* SimpleButtonControlState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleButtonControlState.swift; sourceTree = "<group>"; };
+		E6B29FDC3D1AB55FA08FEF754DAA8F39 /* Pods-UBAuthFlow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UBAuthFlow_Example-umbrella.h"; sourceTree = "<group>"; };
+		E7892BBB7290B36B5F4A77813DB2FCFD /* Pods-UBAuthFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBAuthFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E7F099983CB85DCDBA0E8C5A41E10423 /* Pods-UBAuthFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UBAuthFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBAEF9F46623C50308643A394FC60115 /* InitialView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		EBF07BA37F7ADA2EFE41EE97E7C519E9 /* TextFieldSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextFieldSettings.swift; sourceTree = "<group>"; };
+		F0B69061B526557489949EBA49689F19 /* TPKeyboardAvoiding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F450489453C23437DE8B8D2AED212F4F /* USE_Coordinator.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = USE_Coordinator.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FAC933E83E3FAF978547D240FEBAFA /* ArrowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
+		FBB0059136DB15EED5B5F58BDE5CA1F6 /* USE_Coordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = USE_Coordinator.modulemap; sourceTree = "<group>"; };
+		FC0C65EE22CE75FE008CB8F9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		FC0C65F022CEAF90008CB8F9 /* EditPhoneSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneSettings.swift; sourceTree = "<group>"; };
+		FC0C65F322CEB0B7008CB8F9 /* EditPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewController.swift; sourceTree = "<group>"; };
+		FC0C65F622CEB0D7008CB8F9 /* EditPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneView.swift; sourceTree = "<group>"; };
+		FCD5562E22CCF679006FE561 /* PinTextInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinTextInputView.swift; sourceTree = "<group>"; };
+		FF5BF032CA3AC604D6811417E4CB1E79 /* Pods-UBAuthFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UBAuthFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B5CAF63EB39E62DE69A5D0FF8179CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6D45C333B6A1916C81BB4798F5A592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9948B3E33BF39E472B1B722FE4FC48BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266D45F712E1F5F9E3E738457D553670 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16AE672750407BA0300C12BD120E7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2723DF067AC272882BEC22A2CC704216 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF53D801DB5EE5D2C98FFBCC0E089D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C003A65386B0C5E0936AB472CEBC2D47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABE4EAAF8F5636663D0811D586C2A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976A779B18D7230E1304C02D82263837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB3A343B33734A5B994C5C0239076FCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40CC809515D71190870A8F780985B28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A243FD55ED4E0FFFC183A6629F18A38 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A93DE27F6B7E60C0260A789C0D2347FD /* SignUpView.swift */,
+				CDECA5F73EF70F74D49F7F46C4A915FC /* Subviews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C5016605D50A3EB863D1D5431475C59 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				746100BA4D12C6687A3EC19C6A2119C3 /* TPKeyboardAvoidingCollectionView.h */,
+				A0A4FE1306DC56AE61062EA2DD0F2CB6 /* TPKeyboardAvoidingCollectionView.m */,
+				699076D93166EFFBBA925A981A3F5142 /* TPKeyboardAvoidingScrollView.h */,
+				4DAEC8DA8F718BBD61FE866956C0DE33 /* TPKeyboardAvoidingScrollView.m */,
+				6F5AC697CF31A1CA575A46AC1F10ED5C /* TPKeyboardAvoidingTableView.h */,
+				DFCD00B891CEA7FE782521417E3EFA61 /* TPKeyboardAvoidingTableView.m */,
+				C737F4338FF4ED1CFF01EEBB625D7236 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				4829A4BC90882ED0E3265D83BA366510 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				A34EE2AAC82899F062DF66D50A89C09F /* Support Files */,
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		12F686DD691F04EF6A26C4EF96DE90C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D11D488A5CA3833ECA91B2D127D164FF /* LoginViewController.swift */,
+				234C2DDBE03B798EB3F963D059AB49C4 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		16C59531AE0FDC6A0E191F8AE30D9536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DA035DA5AF9CB4C2DC6E99FA731CAE4 /* Pods_UBAuthFlow_Example.framework */,
+				6541466EFA5AD87FD12C557FF2F83B0E /* Pods_UBAuthFlow_Tests.framework */,
+				F0B69061B526557489949EBA49689F19 /* TPKeyboardAvoiding.framework */,
+				7A8078B4000BF03FE0026FC75756F1E4 /* UBAuthFlow.bundle */,
+				D41E3E78F868B6F294EB6C9D12D9E967 /* UBAuthFlow.framework */,
+				F450489453C23437DE8B8D2AED212F4F /* USE_Coordinator.bundle */,
+				66506820B18BD8586F939B7B0709AC62 /* USE_Coordinator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234C2DDBE03B798EB3F963D059AB49C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F75C01AB3AD0EC123400A92C77A76B4 /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35C902E0BAFF9B12CEE35FA53C87F51A /* Pods-UBAuthFlow_Example */ = {
+			isa = PBXGroup;
+			children = (
+				61D86206966508C8FE988822DE3538E9 /* Pods-UBAuthFlow_Example.modulemap */,
+				083548214145DFD1E8987B5111FC15B9 /* Pods-UBAuthFlow_Example-acknowledgements.markdown */,
+				57E6A5B05F8F49D93DBF9137C8F85215 /* Pods-UBAuthFlow_Example-acknowledgements.plist */,
+				1024794B1BE063D0F0DE09CFAB732EF3 /* Pods-UBAuthFlow_Example-dummy.m */,
+				0864EA64C58ACAD1EBB775C46D88B07F /* Pods-UBAuthFlow_Example-frameworks.sh */,
+				7D19F92C9F9FBF3A8C367B2CFB2E63EB /* Pods-UBAuthFlow_Example-Info.plist */,
+				54E33A7FC801BA02409B72BD117AF0ED /* Pods-UBAuthFlow_Example-resources.sh */,
+				E6B29FDC3D1AB55FA08FEF754DAA8F39 /* Pods-UBAuthFlow_Example-umbrella.h */,
+				4E3F53E7A1E2C1125EAA2F954CBA82CF /* Pods-UBAuthFlow_Example.debug.xcconfig */,
+				E7892BBB7290B36B5F4A77813DB2FCFD /* Pods-UBAuthFlow_Example.release.xcconfig */,
+			);
+			name = "Pods-UBAuthFlow_Example";
+			path = "Target Support Files/Pods-UBAuthFlow_Example";
+			sourceTree = "<group>";
+		};
+		3645EAF912D55DA8842AA6F0972BAC30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86967C8BD875526713A2C1C5A088F350 /* ResourceBundle-USE_Coordinator-USE_Coordinator-Info.plist */,
+				FBB0059136DB15EED5B5F58BDE5CA1F6 /* USE_Coordinator.modulemap */,
+				E164D3E17FF0ADEC30630008C9B99D45 /* USE_Coordinator.xcconfig */,
+				3CB33031B6FE6DB88FCF99F90A8C512C /* USE_Coordinator-dummy.m */,
+				C355AEF5E7FBC8F45B8F54524EAA082D /* USE_Coordinator-Info.plist */,
+				A4E8F6CB87D0EB1CA2BBF92CAFA397E5 /* USE_Coordinator-prefix.pch */,
+				7826353AC90928083EB22EF0E66A0D59 /* USE_Coordinator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/USE_Coordinator";
+			sourceTree = "<group>";
+		};
+		3886E8B7FD2FC75AB749D73D49763592 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				554DB2ED9EC9E57ABEB381598731FB33 /* Extensions.swift */,
+				6B6DECE51F3338CD75B42F1AB321DE68 /* Strings.swift */,
+			);
+			name = Utilities;
+			path = UBAuthFlow/Classes/Utilities;
+			sourceTree = "<group>";
+		};
+		45213C24B384C0245F65E8725A7891F0 /* Initial  */ = {
+			isa = PBXGroup;
+			children = (
+				3CC135A8F0D22211AB7CEAC302A403DB /* InitialViewController.swift */,
+				6E80A699D5D2AD4907EBE5CC4BD120E4 /* View */,
+			);
+			path = "Initial ";
+			sourceTree = "<group>";
+		};
+		4B1D940CC7F6B8729213DE204C38F261 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75299951B04768CC58617ECFBD6361D8 /* UBAuthFlow */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D366AADDB9125C509B04F0C8CE25DCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF05D6C6344B665D48CABBC8E8DC7112 /* menu.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		661CEBEF8A96E9DB0C3C9E2F81F9644E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				93A63C0A65E42EB6A9720BCC4D95407C /* SignUpViewModel.swift */,
+				FC0C65EE22CE75FE008CB8F9 /* LoginViewModel.swift */,
+			);
+			name = ViewModel;
+			path = UBAuthFlow/Classes/ViewModel;
+			sourceTree = "<group>";
+		};
+		677340A6FD906A386A25ECA267B6F72B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0C8C8B80D26D59EA5A57C82C4061AD1 /* PhoneView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B8AFAFBF1166FC61F7395C83D72D477 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CE56DB8BC7AE5A26801CDF0428541493 /* AuthSettings.swift */,
+				44A9EF045B5673A6EAF671E712CB5AE0 /* InitialSettings.swift */,
+				1B6F55B76D0B3D67DD6A6BBABBEDBC44 /* LoginSettings.swift */,
+				6B519681994BB2FB043630616A3E871E /* SignUpSettings.swift */,
+				23E1F59BD99B1183F507169B99C50241 /* ForgotPasswordSettings.swift */,
+				EBF07BA37F7ADA2EFE41EE97E7C519E9 /* TextFieldSettings.swift */,
+				4E3D19B6E47F2CFC7E933BF6CAD60F26 /* ButtonSettings.swift */,
+				B63E2ABFA986211DA78A0BB3B0A6F98C /* PhoneSettings.swift */,
+				FC0C65F022CEAF90008CB8F9 /* EditPhoneSettings.swift */,
+			);
+			name = Settings;
+			path = UBAuthFlow/Classes/Settings;
+			sourceTree = "<group>";
+		};
+		6D4D9437B23418354B5B52DC554C47C7 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				6B94ABA95A43B5B3317B5C9381086253 /* PhoneViewController.swift */,
+				677340A6FD906A386A25ECA267B6F72B /* View */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		6E80A699D5D2AD4907EBE5CC4BD120E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBAEF9F46623C50308643A394FC60115 /* InitialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75299951B04768CC58617ECFBD6361D8 /* UBAuthFlow */ = {
+			isa = PBXGroup;
+			children = (
+				7EC2DA5307D014057206CAB3B025215D /* Coordinator */,
+				7EEECAF2635ACBFF6BEB5F06B86D8A48 /* Pod */,
+				E08CA33670D27B4015F85BBE473C7F2B /* Resources */,
+				6B8AFAFBF1166FC61F7395C83D72D477 /* Settings */,
+				CB30D72BA673F08DED3B013A2EFF175F /* Support Files */,
+				3886E8B7FD2FC75AB749D73D49763592 /* Utilities */,
+				959D8C9E5FD69C1218AD900788D08D51 /* View */,
+				EA355867DDFC53BCD0229B7EC38088F8 /* ViewController */,
+				661CEBEF8A96E9DB0C3C9E2F81F9644E /* ViewModel */,
+			);
+			name = UBAuthFlow;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7EC2DA5307D014057206CAB3B025215D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9743BBFE02D9B84E82B804A0F66C5023 /* AuthCoordinator.swift */,
+			);
+			name = Coordinator;
+			path = UBAuthFlow/Classes/Coordinator;
+			sourceTree = "<group>";
+		};
+		7EEECAF2635ACBFF6BEB5F06B86D8A48 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1F76C6CE120701204F46A6EB77B65425 /* LICENSE */,
+				D173EE26AA19211CEE8A59EAA4830B1B /* README.md */,
+				3983B012C21A72193ACAB3B8521C9E04 /* UBAuthFlow.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		88927B4A6EDA854A7953A9D959909B73 /* USE_Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				994F35B1A0D6821076FECD5F16DFE8B5 /* CoordinatedViewController.swift */,
+				256130AEAC942A1EE70BB22F74E53476 /* Coordinator.swift */,
+				7DB586915F91F25F09DDB8FD891F1A09 /* NavigationCoordinator.swift */,
+				A897C05E1AEA29C175D3468F2771312B /* SideMenuController.swift */,
+				B38B2FD8F4800C31891A3D1C30ADE4EC /* SideMenuCoordinator.swift */,
+				1A75EB04817A22B1C97795CC3EA1B47B /* TabBarCoordinator.swift */,
+				5D366AADDB9125C509B04F0C8CE25DCF /* Resources */,
+				3645EAF912D55DA8842AA6F0972BAC30 /* Support Files */,
+			);
+			path = USE_Coordinator;
+			sourceTree = "<group>";
+		};
+		8935CF43F7EC7526052DA5AA5659D31C /* Pods-UBAuthFlow_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AD232ED801195FDCCEB9B2AB57678C09 /* Pods-UBAuthFlow_Tests.modulemap */,
+				E7F099983CB85DCDBA0E8C5A41E10423 /* Pods-UBAuthFlow_Tests-acknowledgements.markdown */,
+				B31A471C1E85115EC3D28720CECBC183 /* Pods-UBAuthFlow_Tests-acknowledgements.plist */,
+				3887986D769C266C8CE19F27137EF706 /* Pods-UBAuthFlow_Tests-dummy.m */,
+				C13B3D62FDE2B23C8442C4E6D3D5B534 /* Pods-UBAuthFlow_Tests-Info.plist */,
+				9C249CD7AB3C22F2E96D07E66DE5E115 /* Pods-UBAuthFlow_Tests-umbrella.h */,
+				FF5BF032CA3AC604D6811417E4CB1E79 /* Pods-UBAuthFlow_Tests.debug.xcconfig */,
+				93845CFB67A971D3D0B98CB310791443 /* Pods-UBAuthFlow_Tests.release.xcconfig */,
+			);
+			name = "Pods-UBAuthFlow_Tests";
+			path = "Target Support Files/Pods-UBAuthFlow_Tests";
+			sourceTree = "<group>";
+		};
+		959D8C9E5FD69C1218AD900788D08D51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D61D59D2FB8FA8EE2BF8048F37D64DD /* MessageInputView.swift */,
+				FCD5562E22CCF679006FE561 /* PinTextInputView.swift */,
+				B41EB00D49CE1D9DBB6B7AD00D8CF6CC /* SimpleButton */,
+				F8530142B69A5D2C54419A5727491E3D /* Transition Button */,
+			);
+			name = View;
+			path = UBAuthFlow/Classes/View;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A34EE2AAC82899F062DF66D50A89C09F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63793327FF2B582E012238AF9004BE4C /* TPKeyboardAvoiding.modulemap */,
+				739227CE22B36D9888C37D3D51E69A25 /* TPKeyboardAvoiding.xcconfig */,
+				D2740CA01046A3755FD68A58A4B6DA27 /* TPKeyboardAvoiding-dummy.m */,
+				A8E31F50DF1413607960C5DA642776CC /* TPKeyboardAvoiding-Info.plist */,
+				381860A288BB4894FD39D802B7589670 /* TPKeyboardAvoiding-prefix.pch */,
+				62EDF5B59B5500737F7FA7D627A07D58 /* TPKeyboardAvoiding-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		A5602292EA8C4DEA5582494C3BA8EB1C /* Forgot Password */ = {
+			isa = PBXGroup;
+			children = (
+				425DF959FE9E175F5DFEFE280200DC2A /* ForgotPasswordViewController.swift */,
+				EA3E66FDB99C257EB9D0A94E1E3EC7A6 /* View */,
+			);
+			path = "Forgot Password";
+			sourceTree = "<group>";
+		};
+		B41EB00D49CE1D9DBB6B7AD00D8CF6CC /* SimpleButton */ = {
+			isa = PBXGroup;
+			children = (
+				0A01C51691CC11B871248C8D61524C40 /* SimpleButton.swift */,
+				E34AD3711E53BE05D4F7046246C89C79 /* SimpleButtonControlState.swift */,
+				25D5196D2F61296AC6800147233331BE /* SimpleButtonStateChangeValue.swift */,
+				5E5CE02BFCCF90E683EF37A224A134F3 /* UIColorExtensions.swift */,
+			);
+			path = SimpleButton;
+			sourceTree = "<group>";
+		};
+		CB30D72BA673F08DED3B013A2EFF175F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				299215A1B86ED3621574882A5FA8828B /* ResourceBundle-UBAuthFlow-UBAuthFlow-Info.plist */,
+				A821B24E0F22A7D69F467D359E09A044 /* UBAuthFlow.modulemap */,
+				2A9E77331BC777A8E727FB2DF8AC3FDE /* UBAuthFlow.xcconfig */,
+				DC342F597F68974E6D7B9C2BB18716DE /* UBAuthFlow-dummy.m */,
+				192AB93DE8C239FBDDAD7ECE9206D447 /* UBAuthFlow-Info.plist */,
+				01423444516EA669D2760BFD8FBB87E4 /* UBAuthFlow-prefix.pch */,
+				A2FD502F7031B2A3986CD02AF33C5659 /* UBAuthFlow-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UBAuthFlow";
+			sourceTree = "<group>";
+		};
+		CDECA5F73EF70F74D49F7F46C4A915FC /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAC933E83E3FAF978547D240FEBAFA /* ArrowView.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4B1D940CC7F6B8729213DE204C38F261 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FD0C454EC06E996746D0CDFB66C90605 /* Pods */,
+				16C59531AE0FDC6A0E191F8AE30D9536 /* Products */,
+				DDE2CE8B536C951423E5EB8EEDDF3707 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE9A131303261A811CFAC864D883A64 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				585C536C8127C7F6D36FBA2572ED3814 /* SignUpViewController.swift */,
+				0A243FD55ED4E0FFFC183A6629F18A38 /* View */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		DDE2CE8B536C951423E5EB8EEDDF3707 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C902E0BAFF9B12CEE35FA53C87F51A /* Pods-UBAuthFlow_Example */,
+				8935CF43F7EC7526052DA5AA5659D31C /* Pods-UBAuthFlow_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E08CA33670D27B4015F85BBE473C7F2B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				522C3FF9845B13C7E8FA480E62BF39DB /* camera.png */,
+				527D02B988981A996D8CECBD72381F13 /* close.png */,
+				73C8BBE7F307C64B27C9AD38D063807D /* edit-phone.png */,
+				322ACA33E1464E919BB9C37DD7E27FE9 /* eye.png */,
+				D769D920CC5826242535C4FDC7D9DF16 /* eye-closed.png */,
+				CA47F306FFA27637A38295FE8E80719E /* pencil.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA355867DDFC53BCD0229B7EC38088F8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45213C24B384C0245F65E8725A7891F0 /* Initial  */,
+				12F686DD691F04EF6A26C4EF96DE90C5 /* Login */,
+				A5602292EA8C4DEA5582494C3BA8EB1C /* Forgot Password */,
+				DBE9A131303261A811CFAC864D883A64 /* SignUp */,
+				6D4D9437B23418354B5B52DC554C47C7 /* Phone */,
+				FC0C65F222CEB09C008CB8F9 /* Edit Phone */,
+			);
+			name = ViewController;
+			path = UBAuthFlow/Classes/ViewController;
+			sourceTree = "<group>";
+		};
+		EA3E66FDB99C257EB9D0A94E1E3EC7A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3F05CE44A276272511B58AEFD2DB44B9 /* ForgotPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F8530142B69A5D2C54419A5727491E3D /* Transition Button */ = {
+			isa = PBXGroup;
+			children = (
+				14595AB644B4242C927CFEEB2132E969 /* CGRectExtension.swift */,
+				A5D7A338ACD9949ED3D29B1BE9E2CDA7 /* CustomTransitionViewController.swift */,
+				D2439C43ACEF90C464AF29CFA697BDA6 /* FadeTransition.swift */,
+				094A0B7BA39EBAB39778B4678BDFBA7E /* SpinerLayer.swift */,
+				8FF994DA9CC20F347D4F73C47FD4C8BA /* TransitionButton.swift */,
+			);
+			path = "Transition Button";
+			sourceTree = "<group>";
+		};
+		FC0C65F222CEB09C008CB8F9 /* Edit Phone */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C65F322CEB0B7008CB8F9 /* EditPhoneViewController.swift */,
+				FC0C65F522CEB0CA008CB8F9 /* View */,
+			);
+			path = "Edit Phone";
+			sourceTree = "<group>";
+		};
+		FC0C65F522CEB0CA008CB8F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC0C65F622CEB0D7008CB8F9 /* EditPhoneView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD0C454EC06E996746D0CDFB66C90605 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C5016605D50A3EB863D1D5431475C59 /* TPKeyboardAvoiding */,
+				88927B4A6EDA854A7953A9D959909B73 /* USE_Coordinator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		300CF518A562124105BB45D60A023AFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBC4CCB747C1CBDCD426C6B3DC46BCB /* USE_Coordinator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92728355A5FA1167E4A125E360536C0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17661DB679C575C0EA40A98A75810C13 /* Pods-UBAuthFlow_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA880E6F015CD40062EDA8FE1DBC11D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0851B55B5178AAE37A027EF54117A750 /* Pods-UBAuthFlow_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9784832DF69C9776A3D40CF7C8BE5EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1693A8E13B8D6628C46E4FCB8495B1E0 /* UBAuthFlow-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8E78016E00671141C0A4316978F58D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119A2822EAA71A93C513F35E4B67C589 /* TPKeyboardAvoiding-umbrella.h in Headers */,
+				606F22A9DA3E8240377895A83F520E81 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				E8DADBF72DC1A5B0AF91FB5C9B57A4E4 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				60E114A5F3C697ED05439663631C9474 /* TPKeyboardAvoidingTableView.h in Headers */,
+				FC8CAB156456F3FB5E7D7664A3325A4E /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B853EE2530907BEB3557498AF1BAC60 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildPhases = (
+				EA8E78016E00671141C0A4316978F58D /* Headers */,
+				63FDDC8080CA59BEEE8ABF083E731C2C /* Sources */,
+				A16AE672750407BA0300C12BD120E7A6 /* Frameworks */,
+				33CE8F077A92BAE1A7068DDD6AC3190C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = F0B69061B526557489949EBA49689F19 /* TPKeyboardAvoiding.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5112B6DEC5025E83AD19DDB99D590E03 /* Pods-UBAuthFlow_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92E944C91B99E2BDF9971F527D441191 /* Build configuration list for PBXNativeTarget "Pods-UBAuthFlow_Example" */;
+			buildPhases = (
+				CA880E6F015CD40062EDA8FE1DBC11D9 /* Headers */,
+				FFA886B51CCF4564CEA0787A55AC2118 /* Sources */,
+				CABE4EAAF8F5636663D0811D586C2A7A /* Frameworks */,
+				613E0876393456B0BA4798046EFF6D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957DB896DB606A81D1F2376E7D4470B8 /* PBXTargetDependency */,
+				28070F3D6487AC1BA01AD86F18A0B9D6 /* PBXTargetDependency */,
+				8AC73DEFF268E7FA443CB96EA7EC143E /* PBXTargetDependency */,
+			);
+			name = "Pods-UBAuthFlow_Example";
+			productName = "Pods-UBAuthFlow_Example";
+			productReference = 4DA035DA5AF9CB4C2DC6E99FA731CAE4 /* Pods_UBAuthFlow_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BE844C80F3C75A03F470984ABA8FD07 /* USE_Coordinator-USE_Coordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38ED6031E9323BEE4032526F866BCAA /* Build configuration list for PBXNativeTarget "USE_Coordinator-USE_Coordinator" */;
+			buildPhases = (
+				EA801702690A597941D5C339DDC0837F /* Sources */,
+				45B5CAF63EB39E62DE69A5D0FF8179CF /* Frameworks */,
+				0E88B54567819C3AD81052A999810639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USE_Coordinator-USE_Coordinator";
+			productName = "USE_Coordinator-USE_Coordinator";
+			productReference = F450489453C23437DE8B8D2AED212F4F /* USE_Coordinator.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7F4480F38EEC560103B77C221296E320 /* UBAuthFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7DB86BAD8AED296E09B3C5CAE17081 /* Build configuration list for PBXNativeTarget "UBAuthFlow" */;
+			buildPhases = (
+				D9784832DF69C9776A3D40CF7C8BE5EE /* Headers */,
+				4F99A2B3D706C27DAE76355EF80C7B9C /* Sources */,
+				CB3A343B33734A5B994C5C0239076FCA /* Frameworks */,
+				545C9E6089811E97BA13A074D057FED9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CF6BA86478748DD6A99E5FB22A0BBA0 /* PBXTargetDependency */,
+				3F0B05E4FF57A69AB21D717C28E22B1F /* PBXTargetDependency */,
+				E650701B8EE330BCE518D2CA4B462119 /* PBXTargetDependency */,
+			);
+			name = UBAuthFlow;
+			productName = UBAuthFlow;
+			productReference = D41E3E78F868B6F294EB6C9D12D9E967 /* UBAuthFlow.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		834901787B233B6D982CCD74D5DA36B1 /* UBAuthFlow-UBAuthFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0F37449CFA64EEE16A103BC22DC5BD5 /* Build configuration list for PBXNativeTarget "UBAuthFlow-UBAuthFlow" */;
+			buildPhases = (
+				654A7CAFA9B5E504905B686AF5172319 /* Sources */,
+				8D6D45C333B6A1916C81BB4798F5A592 /* Frameworks */,
+				860D40D1F0E18D081FA46A107C9C5F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UBAuthFlow-UBAuthFlow";
+			productName = "UBAuthFlow-UBAuthFlow";
+			productReference = 7A8078B4000BF03FE0026FC75756F1E4 /* UBAuthFlow.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9F0988B345BD48433C9FEB8A0375AD56 /* Pods-UBAuthFlow_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0D0DBA7F9D8EFC48D83112ED7D4299A /* Build configuration list for PBXNativeTarget "Pods-UBAuthFlow_Tests" */;
+			buildPhases = (
+				92728355A5FA1167E4A125E360536C0F /* Headers */,
+				7F9D2240F90CDD595238EFF8CB4E515A /* Sources */,
+				9948B3E33BF39E472B1B722FE4FC48BB /* Frameworks */,
+				C428A4F324A277531B46B55DD05DD083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000EE17C80ED669B3A7C23D8BCB03638 /* PBXTargetDependency */,
+			);
+			name = "Pods-UBAuthFlow_Tests";
+			productName = "Pods-UBAuthFlow_Tests";
+			productReference = 6541466EFA5AD87FD12C557FF2F83B0E /* Pods_UBAuthFlow_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC736A5ED8AF5678697054C25D07498E /* USE_Coordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23A73C8108C2E2147104C1D1A3F2B6D6 /* Build configuration list for PBXNativeTarget "USE_Coordinator" */;
+			buildPhases = (
+				300CF518A562124105BB45D60A023AFE /* Headers */,
+				D9BB7314661DBBF50396DD56023148D1 /* Sources */,
+				BF53D801DB5EE5D2C98FFBCC0E089D63 /* Frameworks */,
+				427A5C0DC61EEFADAA1F67B9DEC0C790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094E5A6235A8CC8C897DB9DF85AA62A2 /* PBXTargetDependency */,
+			);
+			name = USE_Coordinator;
+			productName = USE_Coordinator;
+			productReference = 66506820B18BD8586F939B7B0709AC62 /* USE_Coordinator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 16C59531AE0FDC6A0E191F8AE30D9536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5112B6DEC5025E83AD19DDB99D590E03 /* Pods-UBAuthFlow_Example */,
+				9F0988B345BD48433C9FEB8A0375AD56 /* Pods-UBAuthFlow_Tests */,
+				1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */,
+				7F4480F38EEC560103B77C221296E320 /* UBAuthFlow */,
+				834901787B233B6D982CCD74D5DA36B1 /* UBAuthFlow-UBAuthFlow */,
+				EC736A5ED8AF5678697054C25D07498E /* USE_Coordinator */,
+				7BE844C80F3C75A03F470984ABA8FD07 /* USE_Coordinator-USE_Coordinator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E88B54567819C3AD81052A999810639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24BF397668D59AC06995A1CE68FC71D /* menu.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33CE8F077A92BAE1A7068DDD6AC3190C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427A5C0DC61EEFADAA1F67B9DEC0C790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		545C9E6089811E97BA13A074D057FED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613E0876393456B0BA4798046EFF6D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		860D40D1F0E18D081FA46A107C9C5F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836751AF3B0AD2867FDAB040B5EF1BE /* camera.png in Resources */,
+				5D9A2FB7EA7A274BF4B3F77AFE1C2463 /* close.png in Resources */,
+				67E01D8C32FCD56B0CD401B8A196E36C /* edit-phone.png in Resources */,
+				2297CD4BB4EC54EB22D144309139E04D /* eye-closed.png in Resources */,
+				19B2AABA95EF6EB1CC0C9179410511A9 /* eye.png in Resources */,
+				8F278E370A40E093E558974939D7AE0B /* pencil.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C428A4F324A277531B46B55DD05DD083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F99A2B3D706C27DAE76355EF80C7B9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847FEFD638541337F115F2E8E0E69BFD /* ArrowView.swift in Sources */,
+				FC0C65F122CEAF90008CB8F9 /* EditPhoneSettings.swift in Sources */,
+				15EA24C9E1A618D464FF3F693E908B1B /* AuthCoordinator.swift in Sources */,
+				2B67DDEBD1CEE6A7BB471CC72665008D /* AuthSettings.swift in Sources */,
+				4AA737DFB0E5BD971725DC962BA147CF /* ButtonSettings.swift in Sources */,
+				C303FF32A55D246A064888309C51C5DD /* CGRectExtension.swift in Sources */,
+				C6D3A1D7C12C00D56698B5DCE5F670EC /* CustomTransitionViewController.swift in Sources */,
+				AD185EFAC7BF4BE11B9BDB64F71A2574 /* Extensions.swift in Sources */,
+				FCD5562F22CCF679006FE561 /* PinTextInputView.swift in Sources */,
+				A0715565093063F8134574716E7B7ED3 /* FadeTransition.swift in Sources */,
+				D31682DF0BEB5592C59732D64E82AA04 /* ForgotPasswordSettings.swift in Sources */,
+				0E22F13FCB126226E4C635B274744C05 /* ForgotPasswordView.swift in Sources */,
+				AB2C30D9C83A718AE1A457D257A531D3 /* ForgotPasswordViewController.swift in Sources */,
+				5287FF64A877689536225866E8BE26D0 /* InitialSettings.swift in Sources */,
+				4B2C7F9DE0ECD17B883A58B5D3AB737A /* InitialView.swift in Sources */,
+				506293A540551753286BFDBD90D302AC /* InitialViewController.swift in Sources */,
+				FC0C65F722CEB0D7008CB8F9 /* EditPhoneView.swift in Sources */,
+				E79AFEA3DCA5303A52BAEE639DBBEB64 /* LoginSettings.swift in Sources */,
+				54E283B723AD069318DC7317FE9E0CFF /* LoginView.swift in Sources */,
+				E5EF046D4420F5E158D18136DB205679 /* LoginViewController.swift in Sources */,
+				1BA473AF8183EA48138923BCB84255E0 /* MessageInputView.swift in Sources */,
+				1B55F9F7E61E65C1DA4DF990350C51E7 /* PhoneSettings.swift in Sources */,
+				791C42177E732A78199667BC58B79DE0 /* PhoneView.swift in Sources */,
+				69B582B06F896663E383D90DF188BFA8 /* PhoneViewController.swift in Sources */,
+				697E9608048DA4D57A655D927F8E0585 /* SignUpSettings.swift in Sources */,
+				E2BF8ECE39F03AC6176B6DFD51343254 /* SignUpView.swift in Sources */,
+				2482495EB5DC957663EA9D1170236075 /* SignUpViewController.swift in Sources */,
+				DB039491B16423CC3A95250BA606BF72 /* SimpleButton.swift in Sources */,
+				20D25847DA248E506A5BF1B8E10F1C54 /* SimpleButtonControlState.swift in Sources */,
+				3BA648DA31EEC09DA3020C93500B0416 /* SimpleButtonStateChangeValue.swift in Sources */,
+				FC0C65EF22CE75FE008CB8F9 /* LoginViewModel.swift in Sources */,
+				AD6FE1C6E7580289A38DEACD34E4B0CE /* SpinerLayer.swift in Sources */,
+				20707C23F64CED9FE9E0B7C8D8AE33F2 /* Strings.swift in Sources */,
+				7C653DEB83487897476DCAEED9DBF552 /* TextFieldSettings.swift in Sources */,
+				24F4625A069F24D8A6C0EB3AF38A810E /* TransitionButton.swift in Sources */,
+				1573EAFE45D48102DC932ACD51F62C9B /* UBAuthFlow-dummy.m in Sources */,
+				FC0C65F422CEB0B7008CB8F9 /* EditPhoneViewController.swift in Sources */,
+				D7ACE3407BB8A96149BE51CBB9CEDE53 /* UIColorExtensions.swift in Sources */,
+				A67DCAE29300530B3902AF8A38994D39 /* SignUpViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FDDC8080CA59BEEE8ABF083E731C2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1BD7729764B64A4064D692AB835B40 /* TPKeyboardAvoiding-dummy.m in Sources */,
+				E2469DAD95EF0D1A6DCB29B93A59E212 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				B27433E846B5A7C333BB9C0C991F32DF /* TPKeyboardAvoidingScrollView.m in Sources */,
+				F305CA9D4C49A4D5F4AFEC00BCCDE8A2 /* TPKeyboardAvoidingTableView.m in Sources */,
+				30623ED69E9383C1B7F4CD1FF0495D78 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654A7CAFA9B5E504905B686AF5172319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9D2240F90CDD595238EFF8CB4E515A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0CAD73D32D40F37C77ED844C2587BA /* Pods-UBAuthFlow_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BB7314661DBBF50396DD56023148D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156BD640A4A508B1DF45E998A4E9DE5 /* CoordinatedViewController.swift in Sources */,
+				36F810E05636BF538851BD50528F0E98 /* Coordinator.swift in Sources */,
+				5DC83757882502B87CD7722491C1CC1A /* NavigationCoordinator.swift in Sources */,
+				A76BB740A4BB57AAF0F7D12E0C28317F /* SideMenuController.swift in Sources */,
+				B48524C632E0F294E57E7E7B2F109A17 /* SideMenuCoordinator.swift in Sources */,
+				0ADCFA3D8CE6DAC5812753ABBDA24AEA /* TabBarCoordinator.swift in Sources */,
+				FF39F91A84F66362919ADC6E9B64F802 /* USE_Coordinator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA801702690A597941D5C339DDC0837F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA886B51CCF4564CEA0787A55AC2118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5053762EFA29AA513D31B7F5D035A75 /* Pods-UBAuthFlow_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000EE17C80ED669B3A7C23D8BCB03638 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UBAuthFlow_Example";
+			target = 5112B6DEC5025E83AD19DDB99D590E03 /* Pods-UBAuthFlow_Example */;
+			targetProxy = 4803CF3B5C8B7203E4195F2400A7806B /* PBXContainerItemProxy */;
+		};
+		094E5A6235A8CC8C897DB9DF85AA62A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "USE_Coordinator-USE_Coordinator";
+			target = 7BE844C80F3C75A03F470984ABA8FD07 /* USE_Coordinator-USE_Coordinator */;
+			targetProxy = 8C9DB1BB97F4B390BEDB3B6984C8CA92 /* PBXContainerItemProxy */;
+		};
+		28070F3D6487AC1BA01AD86F18A0B9D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UBAuthFlow;
+			target = 7F4480F38EEC560103B77C221296E320 /* UBAuthFlow */;
+			targetProxy = 7FCE029957606056A7CBA2DBBB01627B /* PBXContainerItemProxy */;
+		};
+		3F0B05E4FF57A69AB21D717C28E22B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UBAuthFlow-UBAuthFlow";
+			target = 834901787B233B6D982CCD74D5DA36B1 /* UBAuthFlow-UBAuthFlow */;
+			targetProxy = 39B6A54B4D830D0D822085D99FED16A3 /* PBXContainerItemProxy */;
+		};
+		4CF6BA86478748DD6A99E5FB22A0BBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = 1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */;
+			targetProxy = 3789C03CF12178F49023DAC2F947F491 /* PBXContainerItemProxy */;
+		};
+		8AC73DEFF268E7FA443CB96EA7EC143E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = USE_Coordinator;
+			target = EC736A5ED8AF5678697054C25D07498E /* USE_Coordinator */;
+			targetProxy = 874B2E5D28A8CBA0C9DB0D6228F21DBF /* PBXContainerItemProxy */;
+		};
+		957DB896DB606A81D1F2376E7D4470B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = 1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */;
+			targetProxy = F7096E192FAA49B2862D6FF771B3F02A /* PBXContainerItemProxy */;
+		};
+		E650701B8EE330BCE518D2CA4B462119 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = USE_Coordinator;
+			target = EC736A5ED8AF5678697054C25D07498E /* USE_Coordinator */;
+			targetProxy = 21FA5FAD4B3C5BA658D154B0F5B6A1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0208FAD3D077896639447D99F6465F97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739227CE22B36D9888C37D3D51E69A25 /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = TPKeyboardAvoiding;
+				PRODUCT_NAME = TPKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0531CEEA58D64EEC4DEF65F08F56237D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3F53E7A1E2C1125EAA2F954CBA82CF /* Pods-UBAuthFlow_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBAuthFlow_Example/Pods-UBAuthFlow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBAuthFlow_Example/Pods-UBAuthFlow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E8E307CC20CDE04F196624082119CEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E164D3E17FF0ADEC30630008C9B99D45 /* USE_Coordinator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/USE_Coordinator";
+				INFOPLIST_FILE = "Target Support Files/USE_Coordinator/ResourceBundle-USE_Coordinator-USE_Coordinator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PRODUCT_NAME = USE_Coordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4BBD65E48C91F42FFDB6A0A70B9FD898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7892BBB7290B36B5F4A77813DB2FCFD /* Pods-UBAuthFlow_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBAuthFlow_Example/Pods-UBAuthFlow_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBAuthFlow_Example/Pods-UBAuthFlow_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88A78C30F0F256417E1A1970492B588D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739227CE22B36D9888C37D3D51E69A25 /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = TPKeyboardAvoiding;
+				PRODUCT_NAME = TPKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9996F502813D6E7B2F06EBB7E5474990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9E77331BC777A8E727FB2DF8AC3FDE /* UBAuthFlow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBAuthFlow";
+				INFOPLIST_FILE = "Target Support Files/UBAuthFlow/ResourceBundle-UBAuthFlow-UBAuthFlow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PRODUCT_NAME = UBAuthFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A49C8B55F8CAE378BB2A515DE0AC8768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E164D3E17FF0ADEC30630008C9B99D45 /* USE_Coordinator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/USE_Coordinator";
+				INFOPLIST_FILE = "Target Support Files/USE_Coordinator/ResourceBundle-USE_Coordinator-USE_Coordinator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PRODUCT_NAME = USE_Coordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A5646DBC69703FF2850D64A1AE497090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5BF032CA3AC604D6811417E4CB1E79 /* Pods-UBAuthFlow_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBAuthFlow_Tests/Pods-UBAuthFlow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBAuthFlow_Tests/Pods-UBAuthFlow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5C2EF0DADA21F628EDF1DCA678844A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93845CFB67A971D3D0B98CB310791443 /* Pods-UBAuthFlow_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UBAuthFlow_Tests/Pods-UBAuthFlow_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UBAuthFlow_Tests/Pods-UBAuthFlow_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6BD427F2A3B429DF8568860C1F9CD27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E164D3E17FF0ADEC30630008C9B99D45 /* USE_Coordinator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/USE_Coordinator/USE_Coordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/USE_Coordinator/USE_Coordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/USE_Coordinator/USE_Coordinator.modulemap";
+				PRODUCT_MODULE_NAME = USE_Coordinator;
+				PRODUCT_NAME = USE_Coordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8DD6651ACBC40ED6646FBAD1670740F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C04BFB25338B77BB03F9E49A6D395098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D81984112B78A42A3AFB747CBAA58D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9E77331BC777A8E727FB2DF8AC3FDE /* UBAuthFlow.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/UBAuthFlow";
+				INFOPLIST_FILE = "Target Support Files/UBAuthFlow/ResourceBundle-UBAuthFlow-UBAuthFlow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				PRODUCT_NAME = UBAuthFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DD69A3B367D61504D8D8E3D8DB411DCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9E77331BC777A8E727FB2DF8AC3FDE /* UBAuthFlow.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBAuthFlow/UBAuthFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBAuthFlow/UBAuthFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UBAuthFlow/UBAuthFlow.modulemap";
+				PRODUCT_MODULE_NAME = UBAuthFlow;
+				PRODUCT_NAME = UBAuthFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9D380752BB7BA71CEF6584D8DE86ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E164D3E17FF0ADEC30630008C9B99D45 /* USE_Coordinator.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/USE_Coordinator/USE_Coordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/USE_Coordinator/USE_Coordinator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/USE_Coordinator/USE_Coordinator.modulemap";
+				PRODUCT_MODULE_NAME = USE_Coordinator;
+				PRODUCT_NAME = USE_Coordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F98C923494C6334E368E206A0CCE6165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9E77331BC777A8E727FB2DF8AC3FDE /* UBAuthFlow.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UBAuthFlow/UBAuthFlow-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UBAuthFlow/UBAuthFlow-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/UBAuthFlow/UBAuthFlow.modulemap";
+				PRODUCT_MODULE_NAME = UBAuthFlow;
+				PRODUCT_NAME = UBAuthFlow;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23A73C8108C2E2147104C1D1A3F2B6D6 /* Build configuration list for PBXNativeTarget "USE_Coordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D380752BB7BA71CEF6584D8DE86ADC /* Debug */,
+				B6BD427F2A3B429DF8568860C1F9CD27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B853EE2530907BEB3557498AF1BAC60 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0208FAD3D077896639447D99F6465F97 /* Debug */,
+				88A78C30F0F256417E1A1970492B588D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DD6651ACBC40ED6646FBAD1670740F /* Debug */,
+				C04BFB25338B77BB03F9E49A6D395098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92E944C91B99E2BDF9971F527D441191 /* Build configuration list for PBXNativeTarget "Pods-UBAuthFlow_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0531CEEA58D64EEC4DEF65F08F56237D /* Debug */,
+				4BBD65E48C91F42FFDB6A0A70B9FD898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38ED6031E9323BEE4032526F866BCAA /* Build configuration list for PBXNativeTarget "USE_Coordinator-USE_Coordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49C8B55F8CAE378BB2A515DE0AC8768 /* Debug */,
+				1E8E307CC20CDE04F196624082119CEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0F37449CFA64EEE16A103BC22DC5BD5 /* Build configuration list for PBXNativeTarget "UBAuthFlow-UBAuthFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81984112B78A42A3AFB747CBAA58D8C /* Debug */,
+				9996F502813D6E7B2F06EBB7E5474990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7DB86BAD8AED296E09B3C5CAE17081 /* Build configuration list for PBXNativeTarget "UBAuthFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98C923494C6334E368E206A0CCE6165 /* Debug */,
+				DD69A3B367D61504D8D8E3D8DB411DCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0D0DBA7F9D8EFC48D83112ED7D4299A /* Build configuration list for PBXNativeTarget "Pods-UBAuthFlow_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5646DBC69703FF2850D64A1AE497090 /* Debug */,
+				B5C2EF0DADA21F628EDF1DCA678844A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
